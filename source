@@ -1,10 +1,10 @@
 local soundId = _G.AssetId
 
 local properties = {
-	Pitch = 1,
+	Pitch = _G.AudioSpeed,
 	Parent = workspace,
-	Volume = 10,
-	Looped = false,
+	Volume = _G.Vol,
+	Looped = _G.Looped,
 	PlayOnRemove = true,
 	TimePosition = math.huge
 }
